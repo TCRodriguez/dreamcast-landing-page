@@ -6,15 +6,11 @@
 Design
 -------
 
+I had an Orange 50/50 bar in mind for the color scheme. They are also known as orange creamsicles,
+though they were named the former at my childhood neighborhood's ice cream truck.
 
-
-
-
-
-
-
-
-
+I also remember seeing that Japan released it's Dreamcast consoles in an orange box which was 
+different than what we got here in the U.S.
 
 
 -------
