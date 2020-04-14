@@ -119,7 +119,7 @@ ul li a {
 }
 
 
-#newsletter-signup button {
+#newsletter-signup input[type="submit"] {
     background-color: #ff5c0e;
     border: 0;
     border-radius: 5px;
