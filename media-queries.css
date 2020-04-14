@@ -1,0 +1,131 @@
+@media only screen and (max-width: 767px ) {
+
+    #logo img {
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+    
+    #newsletter-signup button {
+        color: black;
+        background-color: #FFB100;
+    }
+
+    ion-icon {
+        font-size: 6rem;
+    }
+
+    #price h4 {
+        font-size: 1.5rem;
+    }
+
+    #price p {
+        font-size: 1.25rem;
+        padding-right: 4%;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    header {
+        flex-wrap: wrap;
+        height: auto;
+
+    }
+
+    #logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo img {
+        max-width: 50%;
+        margin-top: 2%;
+    }
+
+
+
+    #nav-bar {
+        text-align: center;
+        width: 100%;
+    }
+
+    #nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        margin-left: 0;
+        margin-bottom: 4%;
+
+    }
+
+    li {
+        font-size: 1.5rem;
+        padding: 3% 0;
+    }
+
+    #circle-graphic img {
+        display: none;
+    }
+
+    #hero-img img {
+        margin-top: 80%;
+        margin-bottom: 5%;
+        max-width: 80%;
+        margin-left: 10%;
+    }
+
+    #grid p {
+        padding: 0 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    #price {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #price p {
+        padding-right: 15%;
+        padding-bottom: 10%;
+    }
+
+    #present-price {
+        margin-left: 28%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    li {
+        font-size: 1rem;
+    }
+
+    #grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #features {
+        padding-bottom: 10%;
+    }
+
+    ion-icon {
+        display: none;
+    }
+
+    #hero-img img {
+        margin-top: 90%;
+        margin-bottom: 5%;
+    } 
+
+    #present-price {
+        margin-left: 16%;
+        padding-right: 5%;
+    }
+}

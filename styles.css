@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #ff5900;
+    font-family: 'Lato', sans-serif;
+}
+
+/* =============== */
+/* Header */
+/* =============== */
+
+header {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 8vw;
+    position: fixed;
+    z-index: 9999;
+    border-bottom: none;
+    top: 0;
+}
+
+.spacer {
+    margin-top: 20%;
+}
+
+#logo img {
+    display: flex;
+    /* width: 100%; */
+    height: auto;
+    max-width: 20%;
+    padding: 3%;
+}
+
+#header-img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    align-items: center;
+
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 35vw;
+    list-style-type: none;
+    align-self: center;
+    margin-left: 20%;
+    margin-right: 2%;
+}
+
+ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* =============== */
+/* Hero */
+/* =============== */
+
+#circle-graphic {
+    width: 100%;
+    position: absolute;
+}
+
+#circle-graphic img {
+    max-width: 100%;
+    z-index: 1;
+}
+
+
+#hero-img {
+    position: relative;
+    /* margin-bottom: 300px; */
+
+}
+
+#hero-img img {
+    max-width: 25%;
+    min-width: 20%;
+    margin-top: 10%;
+    margin-left: 35%;
+    /* opacity: 0.2; */
+}
+
+#newsletter-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    /* margin-left: 1%; */
+    align-items: center;
+}
+
+#newsletter-signup h2 {
+    margin-bottom: 2%;
+}
+
+#newsletter-signup input[type="email"] {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+
+#newsletter-signup button {
+    background-color: #ff5c0e;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* =============== */
+/* Features */
+/* =============== */
+
+#features {
+    color: white;
+}
+
+#features div {
+    margin: 3% 0;
+}
+
+#grid {
+    display: grid;
+    z-index: 9999;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one two"
+        "three four"
+        "five six";
+}
+
+
+#grid h3 {
+    font-size: 2em;
+}
+
+#grid p {
+    padding-right: 10%;
+}
+
+#internet-logo {
+    grid-area: one;
+}
+
+#feature1 {
+    grid-area: two;
+    z-index: 2;
+}
+
+.feature-logo {
+    justify-self: end;
+    font-size: 8em;
+    margin-right: 50%;
+    align-self: center;
+
+}
+
+.feature-text {
+    align-self: center;
+    padding: 0 4%;
+}
+
+.feature-text p {
+    font-size: 1rem;
+}
+
+#VMU-logo {
+    grid-area: three;
+}
+
+#feature2 {
+    grid-area: four;
+}
+
+#hardware-logo {
+    grid-area: five;
+}
+
+#feature3 {
+    grid-area: six;
+}
+
+/* =============== */
+/* Library */
+/* =============== */
+
+#library {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    margin: 10% 0;
+}
+
+#library {
+    background-color: white;
+}
+
+/* =============== */
+/* Price */
+/* =============== */
+
+#price {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "image text1"
+        "image text2"
+        "button button";
+    margin-top: 10%;
+}
+
+#price h4, p {
+    color: white;
+}
+
+#price h4 {
+    font-size: 2rem;
+}
+
+#price p {
+    font-size: 1.5rem;
+}
+
+#console-image {
+    padding: 5%;
+    grid-area: image;
+}
+
+#console-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+#launch-price {
+    grid-area: text1;
+    align-self: center;
+}
+
+#present-price {
+    grid-area: text2;
+}
+
+#buy-button {
+    grid-area: button;
+    justify-self: center;
+    align-self: center;
+}
+
+#buy-button button {
+    padding: 20px 30px;
+    margin-bottom: 50%;
+    font-size: 1rem;
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FFB100;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Brand */
+
+#developer-brand {
+    margin-bottom: 1%;
+}
+
+#developer-brand h5 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
